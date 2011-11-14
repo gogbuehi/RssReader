@@ -1,0 +1,6 @@
+This is a PHP sandbox for playing with RSS feeds.
+
+A few areas I'm playing around with are:
+ - Extracting data from RSS easily
+ - Rendering content dynamically, using jQuery
+ - Trying out different UX ideas, using jQuery
