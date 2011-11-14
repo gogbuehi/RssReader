@@ -1,0 +1,63 @@
+/* 
+    Document   : styles
+    Created on : Nov 12, 2011, 2:58:57 PM
+    Author     : goodwin
+    Description:
+        Style for NY Times RSS Feed
+*/
+
+root { 
+    display: block;
+}
+body {
+    width:100%;
+    height:100%;
+    font-family: Arial;
+}
+.clear {
+    clear: both;
+}
+div#template {
+    display:none;
+}
+div.content_item {
+    border: solid 1px blue;
+
+    padding: 5px;
+    margin:auto;
+    width:auto;
+    margin-top:5px;
+    margin-bottom:2px;
+    position:relative;
+    background-color:ghostWhite;
+    overflow:hidden;
+}
+/**
+  * Overrides .content_item
+*/
+div.current {
+    z-index:500;
+    background-color:#C0D0C0;
+}
+img.content_image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+a.scroll_anchor {
+    position: relative;
+    top: -100px;
+    float: right;
+}
+div.placeholder {
+    float: left;
+width: 200px;
+height: 200px;
+padding: auto;
+background-color: blue;
+}
+div.placeholder span {
+    display: table-cell;
+vertical-align: middle;
+}
