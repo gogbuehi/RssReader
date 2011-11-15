@@ -21,7 +21,7 @@ div#template {
     display:none;
 }
 div.content_item {
-    border: solid 1px blue;
+    border: solid 1px grey;
 
     padding: 5px;
     margin:auto;
@@ -39,25 +39,21 @@ div.current {
     z-index:500;
     background-color:#C0D0C0;
 }
-img.content_image {
-    float: left;
-    width: 200px;
-    height: 200px;
-    margin-right: 10px;
-}
 a.scroll_anchor {
     position: relative;
     top: -100px;
     float: right;
 }
-div.placeholder {
+img.content_image, div.placeholder {
     float: left;
-width: 200px;
-height: 200px;
-padding: auto;
-background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    background-color: lightgray;
+    
+    padding:10px;
 }
 div.placeholder span {
     display: table-cell;
-vertical-align: middle;
+    vertical-align: middle;
 }
