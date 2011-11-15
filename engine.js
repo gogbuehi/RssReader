@@ -6,7 +6,7 @@ var ContentManager = {
         this.jTemplate = $("div#template");
         
         //Go grab the JSON content
-        $.getJSON('retrieve_rss.php',function(data) {
+        $.getJSON('RssProcessor.php',function(data) {
             ContentManager.rssJson = data;
             var jClone;
             for (var i = 0; i < data.count; i++) {
@@ -41,7 +41,5 @@ var ContentManager = {
     
 }
 $(document).ready(function() {
-    //NyTimesRssEngine.init();
-    //KeyManager.init();
     ContentManager.init();
 });
