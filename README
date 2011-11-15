@@ -3,4 +3,10 @@ This is a PHP sandbox for playing with RSS feeds.
 A few areas I'm playing around with are:
  - Extracting data from RSS easily
  - Rendering content dynamically, using jQuery
- - Trying out different UX ideas, using jQuery
+
+A few items to note
+ - This example fulfills the tasks of
+ -- using up-to-date HTML structures (divs, external CSS, external JS, etc)
+ -- using AJAX to grab the RSS feed from a PHP proxy
+ -- The feed source is set to the New York Times' Home Page RSS Feed
+ -- The PHP Feed Processor removes any ads (at least those using the expected format) from the description nodes of the feed

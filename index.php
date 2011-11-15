@@ -7,7 +7,6 @@
     </head>
     <body>
         <div id="template">
-            <a class="scroll_anchor">Test Anchor</a>
             <img class="content_image" src="/" alt="Image should be placed here" title="Image" />
             <article class="article_summary">
                 <h1><a class="title" target="_blank">Title Here</a></h1>
@@ -20,8 +19,8 @@
             </article>
             <span class="clear"></span>
         </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="jquery-1.6.2.min.js"><\/script>')</script>
+        
+        <script src="jquery-1.6.2.min.js"></script>
         <script src="engine.js"></script>
     </body>
 </html>

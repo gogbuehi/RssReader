@@ -22,15 +22,17 @@ div#template {
 }
 div.content_item {
     border: solid 1px grey;
-
-    padding: 5px;
+    padding: 10px;
     margin:auto;
-    width:auto;
+    width:90%;
     margin-top:5px;
-    margin-bottom:2px;
     position:relative;
     background-color:ghostWhite;
     overflow:hidden;
+}
+
+div.content_item h1 {
+    margin-top: 0px;
 }
 /**
   * Overrides .content_item
@@ -38,11 +40,6 @@ div.content_item {
 div.current {
     z-index:500;
     background-color:#C0D0C0;
-}
-a.scroll_anchor {
-    position: relative;
-    top: -100px;
-    float: right;
 }
 img.content_image, div.placeholder {
     float: left;
@@ -52,8 +49,4 @@ img.content_image, div.placeholder {
     background-color: lightgray;
     
     padding:10px;
-}
-div.placeholder span {
-    display: table-cell;
-    vertical-align: middle;
 }
